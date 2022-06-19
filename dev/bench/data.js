@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655601412758,
+  "lastUpdate": 1655601442656,
   "repoUrl": "https://github.com/TimeStepInc/ABD_benchmark",
   "entries": {
     "My Project Benchmark": [
@@ -69,6 +69,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "My Custom Smaller Is Better Benchmark - Memory Used",
             "value": 100,
+            "unit": "Megabytes",
+            "range": "3",
+            "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "committer": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "distinct": true,
+          "id": "a58f15da9d908b2fe679349b64ecbf51819f3cdc",
+          "message": "Add some data point",
+          "timestamp": "2022-06-18T18:17:05-07:00",
+          "tree_id": "fe76133c793632ff2ef298feb70ce33e5c12992c",
+          "url": "https://github.com/TimeStepInc/ABD_benchmark/commit/a58f15da9d908b2fe679349b64ecbf51819f3cdc"
+        },
+        "date": 1655601441917,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "My Custom Smaller Is Better Benchmark - CPU Load",
+            "value": 47,
+            "unit": "Percent"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - Memory Used",
+            "value": 66,
             "unit": "Megabytes",
             "range": "3",
             "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
