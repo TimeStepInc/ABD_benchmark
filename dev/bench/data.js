@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655631516672,
+  "lastUpdate": 1655633212309,
   "repoUrl": "https://github.com/TimeStepInc/ABD_benchmark",
   "entries": {
     "My Project Benchmark": [
@@ -363,6 +363,44 @@ window.BENCHMARK_DATA = {
           {
             "name": "Testcase 2",
             "value": 1.93,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 120, iter#: 362"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "committer": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "distinct": true,
+          "id": "83e2ab99259e4ec99ae342a86f94e47480ad4376",
+          "message": "4de77c103eb6ff870212ba48985c017caa1fb4db",
+          "timestamp": "2022-06-19T10:06:27Z",
+          "tree_id": "410907bdcb6b3dc84701315cc6c34f0cf8e86939",
+          "url": "https://github.com/TimeStepInc/ABD_benchmark/commit/83e2ab99259e4ec99ae342a86f94e47480ad4376"
+        },
+        "date": 1655633211503,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Testcase 1",
+            "value": 10.477,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 59, iter#: 151"
+          },
+          {
+            "name": "Testcase 2",
+            "value": 1.931,
             "unit": "s",
             "range": "0",
             "extra": "frame# 120, iter#: 362"
