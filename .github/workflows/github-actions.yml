@@ -1,0 +1,26 @@
+# Do not run this workflow on pull request since this workflow has permission to modify contents.
+on:
+  push
+
+permissions:
+  # deployments permission to deploy GitHub pages website
+  deployments: write
+  # contents permission to update benchmark contents in gh-pages branch
+  contents: write
+
+jobs:
+  benchmark:
+    name: Performance regression check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Store benchmark result
+        uses: benchmark-action/github-action-benchmark@v1
+        with:
+          name: ABD Benchmark Timing
+          tool: 'customSmallerIsBetter'
+          output-file-path: benchmark/${{ github.event.head_commit.message }}/benchmark.json
+          # Access token to deploy GitHub Pages branch
+          github-token: ${{ secrets.API_TOKEN_GITHUB }}
+          # Push and deploy GitHub pages branch automatically
+          auto-push: true
