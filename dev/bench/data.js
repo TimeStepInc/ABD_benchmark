@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655605270112,
+  "lastUpdate": 1655627541477,
   "repoUrl": "https://github.com/TimeStepInc/ABD_benchmark",
   "entries": {
     "My Project Benchmark": [
@@ -131,6 +131,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/TimeStepInc/ABD_benchmark/commit/f63331c06941a1b9fdf1afcd37a51533465adbcf"
         },
         "date": 1655605269493,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "My Custom Smaller Is Better Benchmark - CPU Load",
+            "value": 47,
+            "unit": "Percent"
+          },
+          {
+            "name": "My Custom Smaller Is Better Benchmark - Memory Used",
+            "value": 66,
+            "unit": "Megabytes",
+            "range": "3",
+            "extra": "Value for Tooltip: 25\nOptional Num #2: 100\nAnything Else!"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "committer": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "distinct": true,
+          "id": "6746803ca115b97338acf1889954c68be01f0774",
+          "message": "Switch to self-hosted",
+          "timestamp": "2022-06-19T01:32:06-07:00",
+          "tree_id": "9a70d091fd6a002f7b192bbeb87e91ecf017915e",
+          "url": "https://github.com/TimeStepInc/ABD_benchmark/commit/6746803ca115b97338acf1889954c68be01f0774"
+        },
+        "date": 1655627540666,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
