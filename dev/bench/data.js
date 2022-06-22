@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655927729273,
+  "lastUpdate": 1655928358109,
   "repoUrl": "https://github.com/TimeStepInc/ABD_benchmark",
   "entries": {
     "ABD Benchmark Timing": [
@@ -517,6 +517,72 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/TimeStepInc/ABD_benchmark/commit/3caf19a0562792da91cd2b2dbe4fed2e65e0ed68"
         },
         "date": 1655927727524,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Testcase 1",
+            "value": 55.433,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 120, iter#: 568"
+          },
+          {
+            "name": "Testcase 2",
+            "value": 2.115,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 120, iter#: 358"
+          },
+          {
+            "name": "Testcase 3",
+            "value": 19.191,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 120, iter#: 1266"
+          },
+          {
+            "name": "Testcase 4",
+            "value": 18.103,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 78, iter#: 1238"
+          },
+          {
+            "name": "Testcase 5",
+            "value": 132.17999999999998,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 120, iter#: 4483"
+          },
+          {
+            "name": "Testcase 6",
+            "value": 3447.7200000000003,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 600, iter#: 5578"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "committer": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "distinct": true,
+          "id": "1df187e98dedec75ac40adccfdbbfc7b53dbda82",
+          "message": "cddd878aca3420f2cac939b03bc7a8f1a2af5e02",
+          "timestamp": "2022-06-22T20:05:32Z",
+          "tree_id": "0cb63f5c150aa15560807c24f6e261a13d6dbe3d",
+          "url": "https://github.com/TimeStepInc/ABD_benchmark/commit/1df187e98dedec75ac40adccfdbbfc7b53dbda82"
+        },
+        "date": 1655928356149,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
