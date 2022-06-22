@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Testcase 1",
+        "unit": "s",
+        "value": 47.277,
+        "range": "0",
+        "extra": "frame# 120, iter#: 507"
+    },
+    {
+        "name": "Testcase 2",
+        "unit": "s",
+        "value": 2.038,
+        "range": "0",
+        "extra": "frame# 120, iter#: 362"
+    }
+]
