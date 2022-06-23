@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655928358109,
+  "lastUpdate": 1655942423321,
   "repoUrl": "https://github.com/TimeStepInc/ABD_benchmark",
   "entries": {
     "ABD Benchmark Timing": [
@@ -626,6 +626,72 @@ window.BENCHMARK_DATA = {
             "unit": "s",
             "range": "0",
             "extra": "frame# 600, iter#: 5578"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "committer": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "distinct": true,
+          "id": "a5dad5e43551072d9fa153dd4d705e862ef44f9e",
+          "message": "ef7e440dcad146b626f90b66c84c687b1d0e628e",
+          "timestamp": "2022-06-23T00:00:07Z",
+          "tree_id": "56094a39d70e21b1d73eeca565064f8d9db5aa1d",
+          "url": "https://github.com/TimeStepInc/ABD_benchmark/commit/a5dad5e43551072d9fa153dd4d705e862ef44f9e"
+        },
+        "date": 1655942422606,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Testcase 1",
+            "value": 50.14,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 120, iter#: 499"
+          },
+          {
+            "name": "Testcase 2",
+            "value": 2.096,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 120, iter#: 358"
+          },
+          {
+            "name": "Testcase 3",
+            "value": 19.286,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 120, iter#: 1263"
+          },
+          {
+            "name": "Testcase 4",
+            "value": 18.01,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 78, iter#: 1220"
+          },
+          {
+            "name": "Testcase 5",
+            "value": 129.96,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 120, iter#: 4332"
+          },
+          {
+            "name": "Testcase 6",
+            "value": 3441.2999999999997,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 600, iter#: 6491"
           }
         ]
       }
