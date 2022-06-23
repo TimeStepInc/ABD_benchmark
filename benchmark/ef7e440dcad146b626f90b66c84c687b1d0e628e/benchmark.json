@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Testcase 1",
+        "unit": "s",
+        "value": 50.14,
+        "range": "0",
+        "extra": "frame# 120, iter#: 499"
+    },
+    {
+        "name": "Testcase 2",
+        "unit": "s",
+        "value": 2.096,
+        "range": "0",
+        "extra": "frame# 120, iter#: 358"
+    },
+    {
+        "name": "Testcase 3",
+        "unit": "s",
+        "value": 19.286,
+        "range": "0",
+        "extra": "frame# 120, iter#: 1263"
+    },
+    {
+        "name": "Testcase 4",
+        "unit": "s",
+        "value": 18.01,
+        "range": "0",
+        "extra": "frame# 78, iter#: 1220"
+    },
+    {
+        "name": "Testcase 5",
+        "unit": "s",
+        "value": 129.96,
+        "range": "0",
+        "extra": "frame# 120, iter#: 4332"
+    },
+    {
+        "name": "Testcase 6",
+        "unit": "s",
+        "value": 3441.2999999999997,
+        "range": "0",
+        "extra": "frame# 600, iter#: 6491"
+    }
+]
