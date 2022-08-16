@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660682610315,
+  "lastUpdate": 1660682799461,
   "repoUrl": "https://github.com/TimeStepInc/ABD",
   "entries": {
     "ABD Benchmark Timing": [
@@ -749,6 +749,72 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/TimeStepInc/ABD/commit/3e6e75cd73eb5a7dabf00a8c05c56f4db5b34c6c"
         },
         "date": 1660682609766,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Testcase 1",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 2",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 3",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 4",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 5",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 6",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "committer": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "distinct": true,
+          "id": "41174a58a75c18e9e4593d9115052df7634700d9",
+          "message": "Update profiler::flagging",
+          "timestamp": "2022-08-16T13:43:03-07:00",
+          "tree_id": "52e2abb4bfd1a8808496fc23da5f48e3a51ef53f",
+          "url": "https://github.com/TimeStepInc/ABD/commit/41174a58a75c18e9e4593d9115052df7634700d9"
+        },
+        "date": 1660682798953,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
