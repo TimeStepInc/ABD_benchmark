@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661164534623,
+  "lastUpdate": 1661165638746,
   "repoUrl": "https://github.com/TimeStepInc/ABD",
   "entries": {
     "ABD Benchmark Timing": [
@@ -1211,6 +1211,72 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/TimeStepInc/ABD/commit/83cc3efb43125d950f3201c3f71497ed7de14c77"
         },
         "date": 1661164533595,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Testcase 1",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 2",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 3",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 4",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 5",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          },
+          {
+            "name": "Testcase 6",
+            "value": 0,
+            "unit": "s",
+            "range": "0",
+            "extra": "frame# 0, iter#: 0"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "committer": {
+            "email": "squarefk@gmail.com",
+            "name": "Yu Fang",
+            "username": "squarefk"
+          },
+          "distinct": true,
+          "id": "f5b9685ca08fa641b78c97e033fa5e9bfb6cec09",
+          "message": "Replace KernData<T> with CommDataPtr<T>",
+          "timestamp": "2022-08-22T03:50:54-07:00",
+          "tree_id": "7b0d570dadbad8960560bbdb534ba0c10777a584",
+          "url": "https://github.com/TimeStepInc/ABD/commit/f5b9685ca08fa641b78c97e033fa5e9bfb6cec09"
+        },
+        "date": 1661165633204,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
